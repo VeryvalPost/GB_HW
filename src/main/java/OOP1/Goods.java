@@ -57,4 +57,8 @@ public class Goods {
     public void setQty(int qty) {
         this.qty = qty;
     }
+
+    public String getName() {
+        return name;
+    }
 }

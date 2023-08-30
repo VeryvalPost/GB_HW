@@ -11,7 +11,23 @@ public class Category {
         this.goodsArray = goodsArray;
     }
 
-    public void add(Goods goods){
+    public void addToCategory(Goods goods){
+        goodsArray.add(goods);
+    }
 
+    public void printCategory (){
+        System.out.println(" Категория " + catName+ ":");
+        for (Goods prod :goodsArray
+             ) { System.out.println(prod);
+        }
+    }
+
+    public Goods findByName(String prodName) {
+        for (Goods prod : goodsArray) {
+            if (prod.getName().equals(prodName)) {
+                return prod;
+            }
+        }
+        return new Goods("Неизвестный товар", 0.0, 0.0, 0);
     }
 }
