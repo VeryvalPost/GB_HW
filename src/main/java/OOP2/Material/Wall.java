@@ -1,4 +1,12 @@
 package OOP2.Material;
 
-public class Wall {
+import OOP2.Creations.EntityClass;
+
+public class Wall{
+    public Double height;
+
+
+    public Wall(Double height) {
+        this.height = height;
+    }
 }

@@ -1,19 +1,38 @@
 package OOP2.Creations;
 
-public class Robot extends Humanoid{
+public class Robot extends EntityClass{
 
-    protected String name;
-    protected String model;
-    protected String type;
+    private String name;
+    private Double maxJump;
+    private int maxLength;
 
-
-    @Override
-    public void run(int length) {
-
+    public Robot(String name, Double maxJump, int maxLength) {
+        this.name = name;
+        this.maxJump = maxJump;
+        this.maxLength = maxLength;
     }
 
     @Override
-    public void jump(int heigth) {
-        System.out.println("Не могу прыгать");
+    public boolean run(int length) {
+        if (length>this.maxLength){
+            return false;
+        } else return true;
+    }
+
+    @Override
+    public boolean jump(Double height) {
+        return false;
+    }
+
+    @Override
+    public boolean breathe() {
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Robot{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
