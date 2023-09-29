@@ -1,7 +1,7 @@
 package Calculator;
 
 public class Controller {
-
+/*
     BasicCalculator calculator;
     View view;
     public Controller(BasicCalculator calculator, View view){
@@ -16,5 +16,5 @@ public class Controller {
         view.showResult(calculator.calculate());
     }
 
-
+*/
 }

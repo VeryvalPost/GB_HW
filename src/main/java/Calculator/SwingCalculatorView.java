@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+/*
 public class SwingCalculatorView extends JFrame implements View {
     private JTextField textFieldA;
     private JTextField textFieldB;
@@ -88,3 +88,5 @@ public class SwingCalculatorView extends JFrame implements View {
         return  input;
     }
 }
+
+*/

@@ -2,7 +2,7 @@ package Calculator;
 
 public class Main {
     public static void main(String[] args) {
-
+/*
         // Запуск консольного интерфейса калькулятора.
         View view = new SimpleView();
         BasicCalculator calculator = new SimpleCalc();
@@ -13,7 +13,7 @@ public class Main {
         View Jview = new SwingCalculatorView(calculator);
         Controller Jcontroller = new Controller(calculator,Jview);
         Jcontroller.start();
-
+*/
     }
 
 }

@@ -1,10 +1,10 @@
 package Calculator;
 
 import java.util.Scanner;
-/*
-public class SimpleView implements View{
 
-/*
+public class ComplexView implements View{
+
+
 
     @Override
     public void showResult(Double caluculate) {
@@ -12,8 +12,8 @@ public class SimpleView implements View{
     }
 
     @Override
-    public Double inputValue(String name) {
-        Scanner scanner = new Scanner(System.in);
+ public ComplexNumber inputValue(String name) {
+ /*       Scanner scanner = new Scanner(System.in);
         System.out.println("Введите значение переменной " + name);
         try {
             String valueString = scanner.nextLine();
@@ -21,7 +21,7 @@ public class SimpleView implements View{
             return value;
         } catch (NumberFormatException e){
             System.out.println("Ошибка ввода числа");
-        }
+  }*/
         return null;
     }
 
@@ -47,4 +47,3 @@ public class SimpleView implements View{
 
 
 }
-*/
